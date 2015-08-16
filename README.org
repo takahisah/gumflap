@@ -1,0 +1,11 @@
+#+Title: Gumflap Peepcode Play by Play with John Barnette
+#+Author: Taka Hasegawa
+
+A simple messaging app with Sinatra. Deployed on Heroku
+
+* Setup
+1. Clone it from Github
+2. Install gems
+3. Run rake
+
+ 
