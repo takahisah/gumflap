@@ -1,1 +1,1 @@
-web: bundle exec ruby gumflap.rb -p $PORT
+web: bundle exec rackup config.ru -p $PORT

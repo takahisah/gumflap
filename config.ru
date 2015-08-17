@@ -1,0 +1,2 @@
+require './gumflap'
+run Gumflap
