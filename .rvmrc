@@ -1,0 +1,3 @@
+rvm use --create ruby-2.0.0@gumflap
+gem install bundler
+

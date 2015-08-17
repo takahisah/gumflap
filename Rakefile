@@ -1,5 +1,9 @@
 require "rubygems"
+require "rake/testtask"
 
-task :default do
-  abort "write me"
+Rake::TestTask.new do |t|
+  t.libs << "test"
+  t.test_files = FileList["test/test_*.rb"]
 end
+
+task :default => :test
