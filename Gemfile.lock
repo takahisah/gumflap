@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ZenTest (4.11.0)
+    metaclass (0.0.4)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -18,6 +21,7 @@ PLATFORMS
 
 DEPENDENCIES
   ZenTest (= 4.11.0)
+  mocha
   rack-test
   sinatra (= 1.4.5)
 

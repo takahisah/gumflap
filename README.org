@@ -3,9 +3,11 @@
 
 A simple messaging app with Sinatra. Deployed on Heroku
 
-* Setup
+** Setup
 1. Clone it from Github
 2. Install gems
 3. Run rake
 
+** Deploy
+git push heroku master
  
